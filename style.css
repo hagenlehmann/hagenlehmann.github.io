@@ -11,23 +11,51 @@ body {
     color: #333;
 }
 
-header {
-    text-align: left;
-    margin-bottom: 25px;
-    position: relative;
+/* --- Heading Styling --- */
+
+/* Main page title */
+header h1 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 0.5em;
+  color: #4a3f2f; /* warm academic brown */
+  text-align: center;
+  letter-spacing: 0.5px;
 }
 
-h1 {
-    font-family: "Crimson Pro", serif;
-    font-size: 2.4rem;
-    margin-bottom: 0;
+/* Section headings (e.g., "Courses") */
+main h2 {
+  font-size: 1.9rem;
+  margin-top: 1.2em;
+  color: #5c4a3e;
+  border-bottom: 2px solid #d8c9a5; /* subtle academic underline */
+  padding-bottom: 0.2em;
 }
 
-h2 {
-    font-family: "Crimson Pro", serif;
-    font-size: 1.4rem;
-    margin-top: 5px;
-    color: #444;
+/* Academic year headings */
+main h3 {
+  font-size: 1.5rem;
+  margin-top: 1.4em;
+  margin-bottom: 0.4em;
+  color: #6a584a;
+  font-weight: 600;
+}
+
+/* Degree program headings */
+main h4 {
+  font-size: 1.25rem;
+  margin-top: 1em;
+  margin-bottom: 0.2em;
+  color: #7a6859;
+  font-weight: 600;
+}
+
+/* Course list items */
+main ul li {
+  margin-left: 1.2em;
+  margin-bottom: 0.3em;
+  font-size: 1.05rem;
+  color: #3d352c;
 }
 
 /* Navigation */
